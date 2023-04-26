@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.window-container {
+    max-width: 40vw;
+    background-color: #fff;
+    border: 2px solid #21212a;
+    border-radius: 6px;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 4px 4px rgba(96, 85, 78, .6);
+}
+.mint-container {
+    grid-column-gap: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.window-nav-container {
+    height: 44px;
+    background-color: rgba(33, 33, 42, .05);
+    border-bottom: 2px solid #21212a;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.window-nav-button.circle {
+    border-radius: 1000px;
+    margin-right: 0.5em;
+}
+
+.window-nav-button {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(33, 33, 42, .16);
+    border-radius: 2px;
+}
